@@ -11,6 +11,10 @@ const path = require('path');
 const port = process.env.PORT || 8080;
 console.log('>>> check port: ', port);
 
+// cấu hình cho post data
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
 // setup view engine
 configViewEngine(app);
 
