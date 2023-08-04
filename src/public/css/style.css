@@ -60,3 +60,12 @@ a {
     margin-top: 15px;
     cursor: pointer;
 }
+
+/* -----------------------------style for uploadFile.ejs------------------------- */
+.upload-file-container {
+    padding: 15px;
+}
+
+.upload-file-container label {
+    display: block;
+}
